@@ -1,0 +1,177 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background:#ffffff;
+ 
+}
+
+/* Main styles */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.text1 {
+  fill: none;
+  stroke-width: 6;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+}
+
+.text1:nth-child(5n + 1) {
+  stroke: #6495ED;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+.text1:nth-child(5n + 2) {
+  stroke: #40E0D0;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+
+.text1:nth-child(5n + 3) {
+  stroke: #9FE2BF;
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+
+.text1:nth-child(5n + 4) {
+  stroke: #DFFF00;
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+
+.text1:nth-child(5n + 5) {
+  stroke: #FFBF00;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+/* Other styles */
+html, body {
+  height: 100%;
+}
+
+.tit {
+  background:  #ffffff;
+
+
+  
+  
+  font: 14.5em/1 Open Sans, Impact;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+svg {
+  
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  transform-style: preserve-3d;
+  height: 300px;
+  width: 400px;
+  border-radius: 30px;
+  padding: 0rem 5rem;
+  
+  background: linear-gradient(
+    to right,
+    #38adae,
+    #cd295a
+  );
+
+  transition: all .2s;
+  
+}
+
+.card:hover, .card:active, .card:focus {
+  -ms-transform: scale(1.1);
+      transform: scale(1.1); }
+
+.trabajo img {
+  width: 100px;
+  height: 100px;
+  
+ float: right;
+ 
+}
+
+.trabajo h1{
+  color: #ffffff;
+}
+
+.trabajo h3{
+  font-size: medium;
+}
+
+.trabajo h4{
+  font-size: smaller;
+}
+
+.btn{
+  border-radius: 30px;
+}
+
+.btn {
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 0.5em 1.2em;
+  background: linear-gradient(
+    to left,
+    #d74177,
+    #ffe98a
+  );
+  
+  position: relative;
+  border-radius: 30px;
+}
+.btn:before {
+  content:"";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+  border-radius: 30px;
+}
+.btn:hover:before {
+width: 100%;
+border-radius: 30px;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+ 
+}
+
+.navbar{
+  background-color: #4449BF;
+  
+}
+
+
+
+
+
+
+
+
+
